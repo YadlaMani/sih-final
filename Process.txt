@@ -1,0 +1,73 @@
+To do
+
+1. create models
+    1. User
+        ->Username
+        ->Password
+        ->Email
+        ->IsVerifiedWithEmail
+        ->forgotPasswordToken:String,
+        ->forgotPasswordTokenExpiry:Date,
+        ->verifyToken:String,
+        ->verifyTokenExpiry:Date,
+    2. Profile
+        ->IsCustomer
+        ->IsTransporter
+        ->IsVendor
+        ->PhoneNumber(If vendor Better Choose a Phone Number with UPI Id)
+        ->IsVerifiedWithMobile
+        ->latitude
+        ->logitude
+    3. Community
+        ->array of Stores
+        ->trending Store
+        ->Famous For
+        ->MinorDescription
+        ->MajorDescription
+    4. Store
+        ->communityId
+        ->ProfileId
+        ->name
+        ->description
+        ->rating
+        ->array of Products
+    5. Product
+        ->StoreId
+        ->name
+        ->description
+        ->stockavailable:boolean
+        ->price:number
+        ->image:url
+    
+2. sign up functionality
+3. signin functionality
+4. profile management Ask what he wants to be and take the details of him
+5. Add Verification function
+6. Add Store Manage Page If he is Seller
+7. Add search page
+-> Add Product Page
+8. Add cart functionality
+9. Add Checkout page
+10.Add Tranporter Manging functionality
+11. 
+
+
+
+
+
+-------------------------BUGS------------------------
+
+
+Login Page BUG
+
+-------------------------TO DO --------------------------------
+
+Phone Verification
+Design
+Community Set
+
+
+
+
+73°26' and 83°30' Long
+32°17' and 36°58' lat
